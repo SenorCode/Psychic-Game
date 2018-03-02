@@ -10,23 +10,30 @@
 </head>
 <body>
 	<div class="container">
+		<div id="title">
 		<h1>Psychic-Game</h1>
+		</div>
 		<div id="game-info">
 			<h3>Guess what letter I am thinking of...</h3>
 		</div>
-		<div class="win-lose-box">
-			<p><strong>wins:</strong><span id="wins">  0</span></p>
-			<p><strong>losses:</strong><span id="losses">  0</span></p>
+		<div class="well col-md-2">
+			<p><strong>wins: </strong><span id="wins">  0</span></p>
+			<p><strong>losses: </strong><span id="losses">  0</span></p>
 		</div>
 
-		<div class="guesses-left">
-			<p><strong>Guesses left:</strong> <span id="guesses-left">  9</span></p>
+		<div class="row">
+
+		<div class="guesses-left col-lg-3 col-md-offset-3">
+			<p>Guesses left: <span id="guesses-left">  9</span></p>
 		</div>
-		<div class="guesses-so-far">
-		 	<p><strong>Guesses so far:</strong></p>
-		 	<p> <span id="guess-list"></span></p>
-		 </div> 
-		
+		</div>
+		<br>
+		<div class="row">
+			<div class="guesses-so-far col-lg-12 text-center">
+			 	<p>Guesses so far:</p>
+			 	<p> <span id="guess-list"></span></p>
+		 	</div> 
+		</div>
 	</div>
 
 
